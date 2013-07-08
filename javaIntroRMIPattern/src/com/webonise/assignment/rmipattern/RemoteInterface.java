@@ -4,6 +4,6 @@ import java.rmi.Remote;
 
 public interface RemoteInterface extends Remote
 {
-	public String displayString(String line);
+	public void displayString(String line);
 	
 }
